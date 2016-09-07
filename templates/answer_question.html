@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Answer Questions</title>
+</head>
+<body>
+    <h2>Question: </h2>
+    <div>
+        <form method="post">
+            <div>
+                <label for="answer">Answer: {{ question }}</label>
+                <input type="text" name="submitted_answer" />
+            </div>
+            <div>
+                <button type="submit">Submit Answer</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
