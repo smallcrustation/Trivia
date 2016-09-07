@@ -7,6 +7,8 @@ r = redis.StrictRedis(host='flasktest1.redis.cache.windows.net', port='6380',
                       password='xLxIFsNSpKIYx6G2tF4vyHiKvuCnrCpixfSmugdlPxA=' , ssl=True,
                       charset="utf-8", decode_responses=True)
 
+
+#fix
 # Server
 @app.route('/')
 def hello():
