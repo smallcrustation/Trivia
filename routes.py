@@ -3,10 +3,10 @@ from app import app
 import redis
 
 # connect to redis data store, charset over because redis saves data as 8bit
-r = redis.StrictRedis(host='flasktest1.redis.cache.windows.net', port='6380',
-                      password='xLxIFsNSpKIYx6G2tF4vyHiKvuCnrCpixfSmugdlPxA=' , ssl=True,
+r = redis.StrictRedis(host='RedisCacheMVA1.redis.cache.windows.net', port='6380',
+                      password='qRPp1HsQVwUG+1A8kdEs0klD3b4FOfNhQz/rhIrWAMo=' , ssl=True,
                       charset="utf-8", decode_responses=True)
-
+# Updated?
 # Server
 @app.route('/')
 def hello():
